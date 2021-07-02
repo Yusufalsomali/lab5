@@ -18,5 +18,5 @@ void loop() {
 
   uint16_t intensity = map(value, 0, 4096, 0, 255);
   analogWrite(D5, intensity);
-  delay(300);
+  delay(1000);
 }
